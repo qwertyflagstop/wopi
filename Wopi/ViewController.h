@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EZAudio.h"
 
 @interface ViewController : UIViewController
+
+
 
 
 @end
