@@ -18,31 +18,17 @@
 		AD0A53D71BDB5699001943BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0A53D61BDB5699001943BC /* Assets.xcassets */; };
 		AD0A53DA1BDB5699001943BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0A53D81BDB5699001943BC /* LaunchScreen.storyboard */; };
 		AD0A53E21BDB5F6C001943BC /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0A53E11BDB5F6C001943BC /* MultipeerConnectivity.framework */; };
-		AD0A54231BDB62B4001943BC /* EZAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A54041BDB62B4001943BC /* EZAudio.m */; settings = {ASSET_TAGS = (); }; };
-		AD0A54241BDB62B4001943BC /* EZAudioDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A54061BDB62B4001943BC /* EZAudioDevice.m */; settings = {ASSET_TAGS = (); }; };
-		AD0A54251BDB62B4001943BC /* EZAudioDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A54081BDB62B4001943BC /* EZAudioDisplayLink.m */; settings = {ASSET_TAGS = (); }; };
-		AD0A54261BDB62B4001943BC /* EZAudioFFT.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A540A1BDB62B4001943BC /* EZAudioFFT.m */; settings = {ASSET_TAGS = (); }; };
-		AD0A54271BDB62B4001943BC /* EZAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A540C1BDB62B4001943BC /* EZAudioFile.m */; settings = {ASSET_TAGS = (); }; };
-		AD0A54281BDB62B4001943BC /* EZAudioFloatConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A540E1BDB62B4001943BC /* EZAudioFloatConverter.m */; settings = {ASSET_TAGS = (); }; };
-		AD0A54291BDB62B4001943BC /* EZAudioFloatData.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A54101BDB62B4001943BC /* EZAudioFloatData.m */; settings = {ASSET_TAGS = (); }; };
-		AD0A542A1BDB62B4001943BC /* EZAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A54121BDB62B4001943BC /* EZAudioPlayer.m */; settings = {ASSET_TAGS = (); }; };
-		AD0A542B1BDB62B4001943BC /* EZAudioPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A54141BDB62B4001943BC /* EZAudioPlot.m */; settings = {ASSET_TAGS = (); }; };
-		AD0A542C1BDB62B4001943BC /* EZAudioPlotGL.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A54161BDB62B4001943BC /* EZAudioPlotGL.m */; settings = {ASSET_TAGS = (); }; };
-		AD0A542D1BDB62B4001943BC /* EZAudioUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A54181BDB62B4001943BC /* EZAudioUtilities.m */; settings = {ASSET_TAGS = (); }; };
-		AD0A542E1BDB62B4001943BC /* EZMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A541A1BDB62B4001943BC /* EZMicrophone.m */; settings = {ASSET_TAGS = (); }; };
-		AD0A542F1BDB62B4001943BC /* EZOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A541C1BDB62B4001943BC /* EZOutput.m */; settings = {ASSET_TAGS = (); }; };
-		AD0A54301BDB62B4001943BC /* EZPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A541E1BDB62B4001943BC /* EZPlot.m */; settings = {ASSET_TAGS = (); }; };
-		AD0A54311BDB62B4001943BC /* EZRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A54201BDB62B4001943BC /* EZRecorder.m */; settings = {ASSET_TAGS = (); }; };
-		AD0A54321BDB62B4001943BC /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = AD0A54211BDB62B4001943BC /* TPCircularBuffer.c */; settings = {ASSET_TAGS = (); }; };
 		AD0A54341BDB6706001943BC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0A54331BDB6706001943BC /* AVFoundation.framework */; };
-		AD0A54361BDB670C001943BC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0A54351BDB670C001943BC /* Accelerate.framework */; };
-		AD0A54381BDB6714001943BC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0A54371BDB6714001943BC /* AudioToolbox.framework */; };
-		AD0A543A1BDB671C001943BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0A54391BDB671C001943BC /* CoreGraphics.framework */; };
-		AD0A543C1BDB6725001943BC /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0A543B1BDB6725001943BC /* GLKit.framework */; };
 		AD0A54451BDB766B001943BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A54441BDB766B001943BC /* AppDelegate.m */; };
 		AD0A54481BDB766B001943BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A54471BDB766B001943BC /* main.m */; };
 		AD0A544A1BDB766B001943BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0A54491BDB766B001943BC /* Assets.xcassets */; };
 		AD0A544D1BDB766B001943BC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD0A544B1BDB766B001943BC /* MainMenu.xib */; };
+		AD0A54541BDBF11C001943BC /* WPPeerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A54531BDBF11C001943BC /* WPPeerClient.m */; settings = {ASSET_TAGS = (); }; };
+		AD0A54571BDBF2CB001943BC /* WPListener.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A54561BDBF2CB001943BC /* WPListener.m */; settings = {ASSET_TAGS = (); }; };
+		AD0A545B1BDBF932001943BC /* WPPeerHost.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A545A1BDBF932001943BC /* WPPeerHost.m */; settings = {ASSET_TAGS = (); }; };
+		AD0A545C1BDBF932001943BC /* WPPeerHost.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A545A1BDBF932001943BC /* WPPeerHost.m */; settings = {ASSET_TAGS = (); }; };
+		AD0A545E1BDBFFBE001943BC /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0A545D1BDBFFBE001943BC /* MultipeerConnectivity.framework */; };
+		AD0A54601BDBFFC4001943BC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0A545F1BDBFFC4001943BC /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,43 +50,7 @@
 		AD0A53D91BDB5699001943BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD0A53DB1BDB5699001943BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD0A53E11BDB5F6C001943BC /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
-		AD0A54031BDB62B4001943BC /* EZAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudio.h; sourceTree = "<group>"; };
-		AD0A54041BDB62B4001943BC /* EZAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudio.m; sourceTree = "<group>"; };
-		AD0A54051BDB62B4001943BC /* EZAudioDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioDevice.h; sourceTree = "<group>"; };
-		AD0A54061BDB62B4001943BC /* EZAudioDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioDevice.m; sourceTree = "<group>"; };
-		AD0A54071BDB62B4001943BC /* EZAudioDisplayLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioDisplayLink.h; sourceTree = "<group>"; };
-		AD0A54081BDB62B4001943BC /* EZAudioDisplayLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioDisplayLink.m; sourceTree = "<group>"; };
-		AD0A54091BDB62B4001943BC /* EZAudioFFT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioFFT.h; sourceTree = "<group>"; };
-		AD0A540A1BDB62B4001943BC /* EZAudioFFT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioFFT.m; sourceTree = "<group>"; };
-		AD0A540B1BDB62B4001943BC /* EZAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioFile.h; sourceTree = "<group>"; };
-		AD0A540C1BDB62B4001943BC /* EZAudioFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioFile.m; sourceTree = "<group>"; };
-		AD0A540D1BDB62B4001943BC /* EZAudioFloatConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioFloatConverter.h; sourceTree = "<group>"; };
-		AD0A540E1BDB62B4001943BC /* EZAudioFloatConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioFloatConverter.m; sourceTree = "<group>"; };
-		AD0A540F1BDB62B4001943BC /* EZAudioFloatData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioFloatData.h; sourceTree = "<group>"; };
-		AD0A54101BDB62B4001943BC /* EZAudioFloatData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioFloatData.m; sourceTree = "<group>"; };
-		AD0A54111BDB62B4001943BC /* EZAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioPlayer.h; sourceTree = "<group>"; };
-		AD0A54121BDB62B4001943BC /* EZAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioPlayer.m; sourceTree = "<group>"; };
-		AD0A54131BDB62B4001943BC /* EZAudioPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioPlot.h; sourceTree = "<group>"; };
-		AD0A54141BDB62B4001943BC /* EZAudioPlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioPlot.m; sourceTree = "<group>"; };
-		AD0A54151BDB62B4001943BC /* EZAudioPlotGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioPlotGL.h; sourceTree = "<group>"; };
-		AD0A54161BDB62B4001943BC /* EZAudioPlotGL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioPlotGL.m; sourceTree = "<group>"; };
-		AD0A54171BDB62B4001943BC /* EZAudioUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioUtilities.h; sourceTree = "<group>"; };
-		AD0A54181BDB62B4001943BC /* EZAudioUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioUtilities.m; sourceTree = "<group>"; };
-		AD0A54191BDB62B4001943BC /* EZMicrophone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZMicrophone.h; sourceTree = "<group>"; };
-		AD0A541A1BDB62B4001943BC /* EZMicrophone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZMicrophone.m; sourceTree = "<group>"; };
-		AD0A541B1BDB62B4001943BC /* EZOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZOutput.h; sourceTree = "<group>"; };
-		AD0A541C1BDB62B4001943BC /* EZOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZOutput.m; sourceTree = "<group>"; };
-		AD0A541D1BDB62B4001943BC /* EZPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZPlot.h; sourceTree = "<group>"; };
-		AD0A541E1BDB62B4001943BC /* EZPlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZPlot.m; sourceTree = "<group>"; };
-		AD0A541F1BDB62B4001943BC /* EZRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZRecorder.h; sourceTree = "<group>"; };
-		AD0A54201BDB62B4001943BC /* EZRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZRecorder.m; sourceTree = "<group>"; };
-		AD0A54211BDB62B4001943BC /* TPCircularBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TPCircularBuffer.c; sourceTree = "<group>"; };
-		AD0A54221BDB62B4001943BC /* TPCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCircularBuffer.h; sourceTree = "<group>"; };
 		AD0A54331BDB6706001943BC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		AD0A54351BDB670C001943BC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
-		AD0A54371BDB6714001943BC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		AD0A54391BDB671C001943BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AD0A543B1BDB6725001943BC /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		AD0A54411BDB766B001943BC /* wopiDesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wopiDesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0A54431BDB766B001943BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AD0A54441BDB766B001943BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -108,6 +58,14 @@
 		AD0A54491BDB766B001943BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD0A544C1BDB766B001943BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		AD0A544E1BDB766B001943BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0A54521BDBF11C001943BC /* WPPeerClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WPPeerClient.h; path = Wopi/WPPeerClient.h; sourceTree = "<group>"; };
+		AD0A54531BDBF11C001943BC /* WPPeerClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WPPeerClient.m; path = Wopi/WPPeerClient.m; sourceTree = "<group>"; };
+		AD0A54551BDBF2CB001943BC /* WPListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPListener.h; sourceTree = "<group>"; };
+		AD0A54561BDBF2CB001943BC /* WPListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPListener.m; sourceTree = "<group>"; };
+		AD0A54591BDBF932001943BC /* WPPeerHost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPPeerHost.h; sourceTree = "<group>"; };
+		AD0A545A1BDBF932001943BC /* WPPeerHost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPPeerHost.m; sourceTree = "<group>"; };
+		AD0A545D1BDBFFBE001943BC /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		AD0A545F1BDBFFC4001943BC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +108,10 @@
 				AD0A53C91BDB5699001943BC /* Wopi */,
 				AD0A54421BDB766B001943BC /* wopiDesk */,
 				AD0A53C81BDB5699001943BC /* Products */,
+				AD0A54521BDBF11C001943BC /* WPPeerClient.h */,
+				AD0A54531BDBF11C001943BC /* WPPeerClient.m */,
+				AD0A54591BDBF932001943BC /* WPPeerHost.h */,
+				AD0A545A1BDBF932001943BC /* WPPeerHost.m */,
 			);
 			sourceTree = "<group>";
 		};
@@ -165,11 +127,12 @@
 		AD0A53C91BDB5699001943BC /* Wopi */ = {
 			isa = PBXGroup;
 			children = (
-				AD0A54021BDB628F001943BC /* EZAudio */,
 				AD0A53CD1BDB5699001943BC /* AppDelegate.h */,
 				AD0A53CE1BDB5699001943BC /* AppDelegate.m */,
 				AD0A53D01BDB5699001943BC /* ViewController.h */,
 				AD0A53D11BDB5699001943BC /* ViewController.m */,
+				AD0A54551BDBF2CB001943BC /* WPListener.h */,
+				AD0A54561BDBF2CB001943BC /* WPListener.m */,
 				AD0A53D61BDB5699001943BC /* Assets.xcassets */,
 				AD0A53D81BDB5699001943BC /* LaunchScreen.storyboard */,
 				AD0A53DB1BDB5699001943BC /* Info.plist */,
@@ -186,48 +149,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AD0A54021BDB628F001943BC /* EZAudio */ = {
-			isa = PBXGroup;
-			children = (
-				AD0A54031BDB62B4001943BC /* EZAudio.h */,
-				AD0A54041BDB62B4001943BC /* EZAudio.m */,
-				AD0A54051BDB62B4001943BC /* EZAudioDevice.h */,
-				AD0A54061BDB62B4001943BC /* EZAudioDevice.m */,
-				AD0A54071BDB62B4001943BC /* EZAudioDisplayLink.h */,
-				AD0A54081BDB62B4001943BC /* EZAudioDisplayLink.m */,
-				AD0A54091BDB62B4001943BC /* EZAudioFFT.h */,
-				AD0A540A1BDB62B4001943BC /* EZAudioFFT.m */,
-				AD0A540B1BDB62B4001943BC /* EZAudioFile.h */,
-				AD0A540C1BDB62B4001943BC /* EZAudioFile.m */,
-				AD0A540D1BDB62B4001943BC /* EZAudioFloatConverter.h */,
-				AD0A540E1BDB62B4001943BC /* EZAudioFloatConverter.m */,
-				AD0A540F1BDB62B4001943BC /* EZAudioFloatData.h */,
-				AD0A54101BDB62B4001943BC /* EZAudioFloatData.m */,
-				AD0A54111BDB62B4001943BC /* EZAudioPlayer.h */,
-				AD0A54121BDB62B4001943BC /* EZAudioPlayer.m */,
-				AD0A54131BDB62B4001943BC /* EZAudioPlot.h */,
-				AD0A54141BDB62B4001943BC /* EZAudioPlot.m */,
-				AD0A54151BDB62B4001943BC /* EZAudioPlotGL.h */,
-				AD0A54161BDB62B4001943BC /* EZAudioPlotGL.m */,
-				AD0A54171BDB62B4001943BC /* EZAudioUtilities.h */,
-				AD0A54181BDB62B4001943BC /* EZAudioUtilities.m */,
-				AD0A54191BDB62B4001943BC /* EZMicrophone.h */,
-				AD0A541A1BDB62B4001943BC /* EZMicrophone.m */,
-				AD0A541B1BDB62B4001943BC /* EZOutput.h */,
-				AD0A541C1BDB62B4001943BC /* EZOutput.m */,
-				AD0A541D1BDB62B4001943BC /* EZPlot.h */,
-				AD0A541E1BDB62B4001943BC /* EZPlot.m */,
-				AD0A541F1BDB62B4001943BC /* EZRecorder.h */,
-				AD0A54201BDB62B4001943BC /* EZRecorder.m */,
-				AD0A54211BDB62B4001943BC /* TPCircularBuffer.c */,
-				AD0A54221BDB62B4001943BC /* TPCircularBuffer.h */,
-			);
-			name = EZAudio;
-			sourceTree = "<group>";
-		};
 		AD0A54421BDB766B001943BC /* wopiDesk */ = {
 			isa = PBXGroup;
 			children = (
+				AD0A545F1BDBFFC4001943BC /* AVFoundation.framework */,
+				AD0A545D1BDBFFBE001943BC /* MultipeerConnectivity.framework */,
 				AD0A54431BDB766B001943BC /* AppDelegate.h */,
 				AD0A54441BDB766B001943BC /* AppDelegate.m */,
 				34A5122F1BDBF58B003307D4 /* WPPlayerScene.h */,
@@ -352,25 +278,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD0A54311BDB62B4001943BC /* EZRecorder.m in Sources */,
-				AD0A542B1BDB62B4001943BC /* EZAudioPlot.m in Sources */,
-				AD0A542A1BDB62B4001943BC /* EZAudioPlayer.m in Sources */,
+				AD0A545B1BDBF932001943BC /* WPPeerHost.m in Sources */,
+				AD0A54571BDBF2CB001943BC /* WPListener.m in Sources */,
 				AD0A53D21BDB5699001943BC /* ViewController.m in Sources */,
-				AD0A542C1BDB62B4001943BC /* EZAudioPlotGL.m in Sources */,
-				AD0A54271BDB62B4001943BC /* EZAudioFile.m in Sources */,
-				AD0A542F1BDB62B4001943BC /* EZOutput.m in Sources */,
-				AD0A54231BDB62B4001943BC /* EZAudio.m in Sources */,
-				AD0A54321BDB62B4001943BC /* TPCircularBuffer.c in Sources */,
 				AD0A53CF1BDB5699001943BC /* AppDelegate.m in Sources */,
-				AD0A54291BDB62B4001943BC /* EZAudioFloatData.m in Sources */,
-				AD0A542E1BDB62B4001943BC /* EZMicrophone.m in Sources */,
-				AD0A54281BDB62B4001943BC /* EZAudioFloatConverter.m in Sources */,
 				AD0A53CC1BDB5699001943BC /* main.m in Sources */,
-				AD0A54251BDB62B4001943BC /* EZAudioDisplayLink.m in Sources */,
-				AD0A54301BDB62B4001943BC /* EZPlot.m in Sources */,
-				AD0A54261BDB62B4001943BC /* EZAudioFFT.m in Sources */,
-				AD0A542D1BDB62B4001943BC /* EZAudioUtilities.m in Sources */,
-				AD0A54241BDB62B4001943BC /* EZAudioDevice.m in Sources */,
+				AD0A54541BDBF11C001943BC /* WPPeerClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD0A545C1BDBF932001943BC /* WPPeerHost.m in Sources */,
 				AD0A54481BDB766B001943BC /* main.m in Sources */,
 				34A512371BDC1C1D003307D4 /* WPManager.m in Sources */,
 				AD0A54451BDB766B001943BC /* AppDelegate.m in Sources */,
