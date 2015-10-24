@@ -7,15 +7,19 @@
 //
 
 #import "AppDelegate.h"
+#import "WPPeerHost.h"
 
 @interface AppDelegate ()
 
 @property (weak) IBOutlet NSWindow *window;
+@property (nonatomic, strong) WPPeerHost *host;
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+    self.host = [[WPPeerHost alloc]init];
+    
     // Insert code here to initialize your application
 }
 
