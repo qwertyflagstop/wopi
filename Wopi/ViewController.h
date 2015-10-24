@@ -9,10 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "EZAudio.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <EZMicrophoneDelegate, EZAudioFFTDelegate>
 
 
+@property (nonatomic,strong)  EZMicrophone *microphone;
 
+@property (nonatomic, strong) EZAudioFFTRolling *fft;
 
 @end
 

@@ -29,6 +29,15 @@
 		AD0A54301BDB62B4001943BC /* EZPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A541E1BDB62B4001943BC /* EZPlot.m */; settings = {ASSET_TAGS = (); }; };
 		AD0A54311BDB62B4001943BC /* EZRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A54201BDB62B4001943BC /* EZRecorder.m */; settings = {ASSET_TAGS = (); }; };
 		AD0A54321BDB62B4001943BC /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = AD0A54211BDB62B4001943BC /* TPCircularBuffer.c */; settings = {ASSET_TAGS = (); }; };
+		AD0A54341BDB6706001943BC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0A54331BDB6706001943BC /* AVFoundation.framework */; };
+		AD0A54361BDB670C001943BC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0A54351BDB670C001943BC /* Accelerate.framework */; };
+		AD0A54381BDB6714001943BC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0A54371BDB6714001943BC /* AudioToolbox.framework */; };
+		AD0A543A1BDB671C001943BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0A54391BDB671C001943BC /* CoreGraphics.framework */; };
+		AD0A543C1BDB6725001943BC /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0A543B1BDB6725001943BC /* GLKit.framework */; };
+		AD0A54451BDB766B001943BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A54441BDB766B001943BC /* AppDelegate.m */; };
+		AD0A54481BDB766B001943BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A54471BDB766B001943BC /* main.m */; };
+		AD0A544A1BDB766B001943BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0A54491BDB766B001943BC /* Assets.xcassets */; };
+		AD0A544D1BDB766B001943BC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD0A544B1BDB766B001943BC /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +83,18 @@
 		AD0A54201BDB62B4001943BC /* EZRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZRecorder.m; sourceTree = "<group>"; };
 		AD0A54211BDB62B4001943BC /* TPCircularBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TPCircularBuffer.c; sourceTree = "<group>"; };
 		AD0A54221BDB62B4001943BC /* TPCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCircularBuffer.h; sourceTree = "<group>"; };
+		AD0A54331BDB6706001943BC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AD0A54351BDB670C001943BC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		AD0A54371BDB6714001943BC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AD0A54391BDB671C001943BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD0A543B1BDB6725001943BC /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		AD0A54411BDB766B001943BC /* wopiDesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wopiDesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0A54431BDB766B001943BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD0A54441BDB766B001943BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD0A54471BDB766B001943BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD0A54491BDB766B001943BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD0A544C1BDB766B001943BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AD0A544E1BDB766B001943BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +102,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD0A543C1BDB6725001943BC /* GLKit.framework in Frameworks */,
+				AD0A543A1BDB671C001943BC /* CoreGraphics.framework in Frameworks */,
+				AD0A54381BDB6714001943BC /* AudioToolbox.framework in Frameworks */,
+				AD0A54361BDB670C001943BC /* Accelerate.framework in Frameworks */,
+				AD0A54341BDB6706001943BC /* AVFoundation.framework in Frameworks */,
 				AD0A53E21BDB5F6C001943BC /* MultipeerConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0A543E1BDB766B001943BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,8 +124,14 @@
 		AD0A53BE1BDB5699001943BC = {
 			isa = PBXGroup;
 			children = (
+				AD0A543B1BDB6725001943BC /* GLKit.framework */,
+				AD0A54391BDB671C001943BC /* CoreGraphics.framework */,
+				AD0A54371BDB6714001943BC /* AudioToolbox.framework */,
+				AD0A54351BDB670C001943BC /* Accelerate.framework */,
+				AD0A54331BDB6706001943BC /* AVFoundation.framework */,
 				AD0A53E11BDB5F6C001943BC /* MultipeerConnectivity.framework */,
 				AD0A53C91BDB5699001943BC /* Wopi */,
+				AD0A54421BDB766B001943BC /* wopiDesk */,
 				AD0A53C81BDB5699001943BC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				AD0A53C71BDB5699001943BC /* Wopi.app */,
+				AD0A54411BDB766B001943BC /* wopiDesk.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,6 +208,27 @@
 			name = EZAudio;
 			sourceTree = "<group>";
 		};
+		AD0A54421BDB766B001943BC /* wopiDesk */ = {
+			isa = PBXGroup;
+			children = (
+				AD0A54431BDB766B001943BC /* AppDelegate.h */,
+				AD0A54441BDB766B001943BC /* AppDelegate.m */,
+				AD0A54491BDB766B001943BC /* Assets.xcassets */,
+				AD0A544B1BDB766B001943BC /* MainMenu.xib */,
+				AD0A544E1BDB766B001943BC /* Info.plist */,
+				AD0A54461BDB766B001943BC /* Supporting Files */,
+			);
+			path = wopiDesk;
+			sourceTree = "<group>";
+		};
+		AD0A54461BDB766B001943BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD0A54471BDB766B001943BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -188,6 +249,23 @@
 			productReference = AD0A53C71BDB5699001943BC /* Wopi.app */;
 			productType = "com.apple.product-type.application";
 		};
+		AD0A54401BDB766B001943BC /* wopiDesk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0A544F1BDB766B001943BC /* Build configuration list for PBXNativeTarget "wopiDesk" */;
+			buildPhases = (
+				AD0A543D1BDB766B001943BC /* Sources */,
+				AD0A543E1BDB766B001943BC /* Frameworks */,
+				AD0A543F1BDB766B001943BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wopiDesk;
+			productName = wopiDesk;
+			productReference = AD0A54411BDB766B001943BC /* wopiDesk.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,6 +276,10 @@
 				ORGANIZATIONNAME = "Nicholas Peretti";
 				TargetAttributes = {
 					AD0A53C61BDB5699001943BC = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 8VB4RLF77S;
+					};
+					AD0A54401BDB766B001943BC = {
 						CreatedOnToolsVersion = 7.0;
 					};
 				};
@@ -216,6 +298,7 @@
 			projectRoot = "";
 			targets = (
 				AD0A53C61BDB5699001943BC /* Wopi */,
+				AD0A54401BDB766B001943BC /* wopiDesk */,
 			);
 		};
 /* End PBXProject section */
@@ -227,6 +310,15 @@
 			files = (
 				AD0A53DA1BDB5699001943BC /* LaunchScreen.storyboard in Resources */,
 				AD0A53D71BDB5699001943BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0A543F1BDB766B001943BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0A544A1BDB766B001943BC /* Assets.xcassets in Resources */,
+				AD0A544D1BDB766B001943BC /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +351,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AD0A543D1BDB766B001943BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0A54481BDB766B001943BC /* main.m in Sources */,
+				AD0A54451BDB766B001943BC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -268,6 +369,14 @@
 				AD0A53D91BDB5699001943BC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AD0A544B1BDB766B001943BC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD0A544C1BDB766B001943BC /* Base */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -359,10 +468,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Wopi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qwertyflagstop.wopi.Wopi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -370,10 +483,44 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Wopi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qwertyflagstop.wopi.Wopi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		AD0A54501BDB766B001943BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = wopiDesk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qwertyflagstop.wopiDesk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AD0A54511BDB766B001943BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = wopiDesk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qwertyflagstop.wopiDesk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -394,6 +541,14 @@
 			buildConfigurations = (
 				AD0A53DF1BDB5699001943BC /* Debug */,
 				AD0A53E01BDB5699001943BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD0A544F1BDB766B001943BC /* Build configuration list for PBXNativeTarget "wopiDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0A54501BDB766B001943BC /* Debug */,
+				AD0A54511BDB766B001943BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
