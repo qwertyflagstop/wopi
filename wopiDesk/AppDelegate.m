@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "WPPeerHost.h"
+#import <SpriteKit/SpriteKit.h>
+#import "WPPlayerScene.h"
 
 @interface AppDelegate () <WPPeerHostDelegate>
 
@@ -22,7 +23,22 @@
     [self.host setDelegate:self];
     [self.host startConnecting];
     // Insert code here to initialize your application
+    
+    myView = [[SKView alloc]initWithFrame:self.window.contentView.bounds];
+    self.window.delegate = self;
+    [self.window.contentView addSubview:myView];
+    playerScene = [[WPPlayerScene alloc] initWithSize:self.window.contentView.bounds.size];
+    
+    [myView presentScene:playerScene];
+    
 }
+
+-(void)windowDidEndLiveResize:(NSNotification *)notification
+{
+    [myView setFrameSize:self.window.contentView.bounds.size];
+    [playerScene setSize:self.window.contentView.bounds.size];
+}
+
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application
