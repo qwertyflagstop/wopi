@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "WPPeerHost.h"
 
-@interface AppDelegate ()
+@interface AppDelegate () <WPPeerHostDelegate>
 
 @property (weak) IBOutlet NSWindow *window;
 @property (nonatomic, strong) WPPeerHost *host;
@@ -19,12 +19,18 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     self.host = [[WPPeerHost alloc]init];
-    
+    [self.host setDelegate:self];
+    [self.host startConnecting];
     // Insert code here to initialize your application
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application
+}
+
+-(void)gotAudioLvl:(CGFloat)lvl forChannel:(char)chanel
+{
+    
 }
 
 @end

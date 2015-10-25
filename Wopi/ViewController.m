@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "WPPeerClient.h"
+#import "WPListener.h"
 
 
 @interface ViewController ()
@@ -15,6 +16,9 @@
     UILabel *readOut;
     UIView *bar;
     WPPeerClient *client;
+    WPListener *listener;
+    NSTimer *barPoll;
+    UISegmentedControl *control;
 
 }
 @end
@@ -28,6 +32,7 @@
     {
         //init other stuff later
         client = [[WPPeerClient alloc]initWithPosition:kTopLeft];
+        listener = [[WPListener alloc]init];
     }
     return self;
 }
@@ -52,15 +57,50 @@
     [self.view addConstraint:[NSLayoutConstraint constraintWithItem:readOut attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeCenterY multiplier:1.0 constant:0]];
     
     
+    control = [[UISegmentedControl alloc]initWithFrame:CGRectMake(20, 20, self.view.frame.size.width-40, 40)];
+    [control insertSegmentWithTitle:@"L" atIndex:0 animated:YES];
+    [control insertSegmentWithTitle:@"R" atIndex:1 animated:YES];
+    [control insertSegmentWithTitle:@"B" atIndex:2 animated:YES];
+    [control setSelectedSegmentIndex:0];
+    [self.view addSubview:control];
     
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(dismissBrowser) name:@"done" object:nil];
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        
+        [self presentViewController:[client browserVC] animated:YES completion:nil];
+    });
     
 }
 
 -(void)viewDidAppear:(BOOL)animated
 {
-    [self presentViewController:[client browserVC] animated:YES completion:nil];
+    barPoll = [NSTimer scheduledTimerWithTimeInterval:1.0/60.0 target:self selector:@selector(refreshAudioLevel) userInfo:nil repeats:YES];
+}
+-(void)viewWillDisappear:(BOOL)animated
+{
+    [barPoll invalidate];
 }
 
+-(void)refreshAudioLevel
+{
+    [readOut setText:[NSString stringWithFormat:@"%f",listener.averageAudioIntensity]];
+    [bar setFrame:CGRectMake(0, 0, self.view.frame.size.width, 30+(((listener.averageAudioIntensity)/60.0)*self.view.frame.size.height-30))];
+    WPPeerPosition pos;
+    if (control.selectedSegmentIndex==0) {
+        pos = kTopLeft;
+    } else if (control.selectedSegmentIndex == 1) {
+        pos = kTopRight;
+    } else if (control.selectedSegmentIndex == 2) {
+        pos = kBack;
+    }
+    [client sendAudio:listener.averageAudioIntensity forPosition:pos];
+}
+
+-(void)dismissBrowser
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

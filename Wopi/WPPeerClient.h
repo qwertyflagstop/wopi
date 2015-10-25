@@ -17,10 +17,12 @@ typedef enum WPPeerPosition : NSUInteger {
     kBack,
 } WPPeerPosition;
 
-@interface WPPeerClient : NSObject <MCBrowserViewControllerDelegate, MCSessionDelegate>
+@interface WPPeerClient : NSObject <MCBrowserViewControllerDelegate, MCSessionDelegate,NSStreamDelegate>
 
 @property (nonatomic, strong) MCBrowserViewController *browserVC;
 
 -(instancetype)initWithPosition:(WPPeerPosition)position;
+
+-(void)sendAudio:(float)audioLvl forPosition:(WPPeerPosition)position;
 
 @end

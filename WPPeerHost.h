@@ -11,8 +11,14 @@
 
 #import "WPPeerClient.h"
 
-@interface WPPeerHost : NSObject <MCNearbyServiceAdvertiserDelegate, MCSessionDelegate>
+@protocol WPPeerHostDelegate <NSObject>
+@required
+- (void)gotAudioLvl:(CGFloat)lvl forChannel:(char)chanel; // L R B
+@end
 
+@interface WPPeerHost : NSObject <MCAdvertiserAssistantDelegate, MCSessionDelegate>
+
+@property (nonatomic, weak) id <WPPeerHostDelegate> delegate;
 -(instancetype)init;
-
+-(void)startConnecting;
 @end

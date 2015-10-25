@@ -18,10 +18,10 @@
 		AD0A54481BDB766B001943BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A54471BDB766B001943BC /* main.m */; };
 		AD0A544A1BDB766B001943BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0A54491BDB766B001943BC /* Assets.xcassets */; };
 		AD0A544D1BDB766B001943BC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD0A544B1BDB766B001943BC /* MainMenu.xib */; };
-		AD0A54541BDBF11C001943BC /* WPPeerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A54531BDBF11C001943BC /* WPPeerClient.m */; settings = {ASSET_TAGS = (); }; };
-		AD0A54571BDBF2CB001943BC /* WPListener.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A54561BDBF2CB001943BC /* WPListener.m */; settings = {ASSET_TAGS = (); }; };
-		AD0A545B1BDBF932001943BC /* WPPeerHost.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A545A1BDBF932001943BC /* WPPeerHost.m */; settings = {ASSET_TAGS = (); }; };
-		AD0A545C1BDBF932001943BC /* WPPeerHost.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A545A1BDBF932001943BC /* WPPeerHost.m */; settings = {ASSET_TAGS = (); }; };
+		AD0A54541BDBF11C001943BC /* WPPeerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A54531BDBF11C001943BC /* WPPeerClient.m */; };
+		AD0A54571BDBF2CB001943BC /* WPListener.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A54561BDBF2CB001943BC /* WPListener.m */; };
+		AD0A545B1BDBF932001943BC /* WPPeerHost.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A545A1BDBF932001943BC /* WPPeerHost.m */; };
+		AD0A545C1BDBF932001943BC /* WPPeerHost.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A545A1BDBF932001943BC /* WPPeerHost.m */; };
 		AD0A545E1BDBFFBE001943BC /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0A545D1BDBFFBE001943BC /* MultipeerConnectivity.framework */; };
 		AD0A54601BDBFFC4001943BC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0A545F1BDBFFC4001943BC /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
@@ -45,12 +45,12 @@
 		AD0A54491BDB766B001943BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD0A544C1BDB766B001943BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		AD0A544E1BDB766B001943BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD0A54521BDBF11C001943BC /* WPPeerClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WPPeerClient.h; path = Wopi/WPPeerClient.h; sourceTree = "<group>"; };
-		AD0A54531BDBF11C001943BC /* WPPeerClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WPPeerClient.m; path = Wopi/WPPeerClient.m; sourceTree = "<group>"; };
+		AD0A54521BDBF11C001943BC /* WPPeerClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPPeerClient.h; sourceTree = "<group>"; };
+		AD0A54531BDBF11C001943BC /* WPPeerClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPPeerClient.m; sourceTree = "<group>"; };
 		AD0A54551BDBF2CB001943BC /* WPListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPListener.h; sourceTree = "<group>"; };
 		AD0A54561BDBF2CB001943BC /* WPListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPListener.m; sourceTree = "<group>"; };
-		AD0A54591BDBF932001943BC /* WPPeerHost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPPeerHost.h; sourceTree = "<group>"; };
-		AD0A545A1BDBF932001943BC /* WPPeerHost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPPeerHost.m; sourceTree = "<group>"; };
+		AD0A54591BDBF932001943BC /* WPPeerHost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WPPeerHost.h; path = ../WPPeerHost.h; sourceTree = "<group>"; };
+		AD0A545A1BDBF932001943BC /* WPPeerHost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WPPeerHost.m; path = ../WPPeerHost.m; sourceTree = "<group>"; };
 		AD0A545D1BDBFFBE001943BC /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = DEVELOPER_DIR; };
 		AD0A545F1BDBFFC4001943BC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -85,10 +85,6 @@
 				AD0A53C91BDB5699001943BC /* Wopi */,
 				AD0A54421BDB766B001943BC /* wopiDesk */,
 				AD0A53C81BDB5699001943BC /* Products */,
-				AD0A54521BDBF11C001943BC /* WPPeerClient.h */,
-				AD0A54531BDBF11C001943BC /* WPPeerClient.m */,
-				AD0A54591BDBF932001943BC /* WPPeerHost.h */,
-				AD0A545A1BDBF932001943BC /* WPPeerHost.m */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +106,8 @@
 				AD0A53D11BDB5699001943BC /* ViewController.m */,
 				AD0A54551BDBF2CB001943BC /* WPListener.h */,
 				AD0A54561BDBF2CB001943BC /* WPListener.m */,
+				AD0A54521BDBF11C001943BC /* WPPeerClient.h */,
+				AD0A54531BDBF11C001943BC /* WPPeerClient.m */,
 				AD0A53D61BDB5699001943BC /* Assets.xcassets */,
 				AD0A53D81BDB5699001943BC /* LaunchScreen.storyboard */,
 				AD0A53DB1BDB5699001943BC /* Info.plist */,
@@ -133,6 +131,8 @@
 				AD0A545D1BDBFFBE001943BC /* MultipeerConnectivity.framework */,
 				AD0A54431BDB766B001943BC /* AppDelegate.h */,
 				AD0A54441BDB766B001943BC /* AppDelegate.m */,
+				AD0A54591BDBF932001943BC /* WPPeerHost.h */,
+				AD0A545A1BDBF932001943BC /* WPPeerHost.m */,
 				AD0A54491BDB766B001943BC /* Assets.xcassets */,
 				AD0A544B1BDB766B001943BC /* MainMenu.xib */,
 				AD0A544E1BDB766B001943BC /* Info.plist */,
@@ -451,6 +451,7 @@
 				AD0A53E01BDB5699001943BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD0A544F1BDB766B001943BC /* Build configuration list for PBXNativeTarget "wopiDesk" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +460,7 @@
 				AD0A54511BDB766B001943BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
