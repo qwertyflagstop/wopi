@@ -60,7 +60,7 @@
 - (void)levelTimerCallback:(NSTimer *)timer {
     
     [self.recorder updateMeters];
-    self.averageAudioIntensity = (-[self.recorder averagePowerForChannel:0]*0.9)+(self.averageAudioIntensity*0.1);
+    self.averageAudioIntensity = (-[self.recorder averagePowerForChannel:0]*0.98)+(self.averageAudioIntensity*0.02);
     
 }
 

@@ -39,7 +39,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    /*
     bar = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 30)];
     [bar setBackgroundColor:[UIColor yellowColor]];
     [self.view addSubview:bar];
@@ -56,6 +56,7 @@
     [self.view addConstraint:[NSLayoutConstraint constraintWithItem:readOut attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeCenterX multiplier:1.0 constant:0]];
     [self.view addConstraint:[NSLayoutConstraint constraintWithItem:readOut attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeCenterY multiplier:1.0 constant:0]];
     
+    */
     
     control = [[UISegmentedControl alloc]initWithFrame:CGRectMake(20, 20, self.view.frame.size.width-40, 40)];
     [control insertSegmentWithTitle:@"L" atIndex:0 animated:YES];
@@ -84,8 +85,10 @@
 
 -(void)refreshAudioLevel
 {
-    [readOut setText:[NSString stringWithFormat:@"%f",listener.averageAudioIntensity]];
-    [bar setFrame:CGRectMake(0, 0, self.view.frame.size.width, 30+(((listener.averageAudioIntensity)/60.0)*self.view.frame.size.height-30))];
+    //[readOut setText:[NSString stringWithFormat:@"%f",listener.averageAudioIntensity]];
+    //[bar setFrame:CGRectMake(0, 0, self.view.frame.size.width, 30+(((listener.averageAudioIntensity)/60.0)*self.view.frame.size.height-30))];
+    [self.view setBackgroundColor:[UIColor colorWithRed:(0 + (listener.averageAudioIntensity*.0167)) green:0 blue:1.0 alpha:1]];
+    
     WPPeerPosition pos;
     if (control.selectedSegmentIndex==0) {
         pos = kTopLeft;
