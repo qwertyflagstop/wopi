@@ -60,7 +60,7 @@
     control = [[UISegmentedControl alloc]initWithFrame:CGRectMake(20, 20, self.view.frame.size.width-40, 40)];
     [control insertSegmentWithTitle:@"L" atIndex:0 animated:YES];
     [control insertSegmentWithTitle:@"R" atIndex:1 animated:YES];
-    [control insertSegmentWithTitle:@"B" atIndex:2 animated:YES];
+    [control insertSegmentWithTitle:@"M" atIndex:2 animated:YES];
     [control setSelectedSegmentIndex:0];
     [self.view addSubview:control];
     

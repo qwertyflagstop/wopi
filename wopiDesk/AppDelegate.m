@@ -27,7 +27,7 @@
     [self.host setDelegate:self];
     [self.host startConnecting];
     // Insert code here to initialize your application
-    
+    [self.window setFrame:NSMakeRect(0, 0, 720, 480) display:YES animate:YES];
     myView = [[SKView alloc]initWithFrame:self.window.contentView.bounds];
     self.window.delegate = self;
     [self.window.contentView addSubview:myView];

@@ -31,7 +31,21 @@
 
 -(void)update:(NSTimeInterval)currentTime
 {
-    CGFloat x = ((l/r)*self.size.width)-(self.size.width*0.5);
+    
+    CGFloat lr = ((l/r)*self.size.width)-(self.size.width*0.5);
+    CGFloat mids;
+    if (l<r) {
+        CGFloat lb = ((l/b)*self.size.width*0.5)-(self.size.width*0.5);
+        mids = lb;
+    } else {
+        CGFloat br = ((b/r)*self.size.width*0.5)-(self.size.width*0.5);
+        mids = br;
+    }
+    
+    //20 low
+    CGFloat x = ((lr+mids)/2.0);
+    
+    
     rollingX = (rollingX *0.9) + (x*0.1);
     [point setPosition:CGPointMake(rollingX, self.size.height*0.5)];
 }
