@@ -9,9 +9,8 @@
 /* Begin PBXBuildFile section */
 		34A5122C1BDBF1C6003307D4 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A5122B1BDBF1C6003307D4 /* SpriteKit.framework */; };
 		34A5122E1BDBF1E0003307D4 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A5122D1BDBF1E0003307D4 /* SpriteKit.framework */; };
-		34A512311BDBF58B003307D4 /* WPPlayerScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A512301BDBF58B003307D4 /* WPPlayerScene.m */; settings = {ASSET_TAGS = (); }; };
-		34A512341BDC01CE003307D4 /* WPSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A512331BDC01CE003307D4 /* WPSprite.m */; settings = {ASSET_TAGS = (); }; };
-		34A512371BDC1C1D003307D4 /* WPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A512361BDC1C1D003307D4 /* WPManager.m */; settings = {ASSET_TAGS = (); }; };
+		34A512311BDBF58B003307D4 /* WPPlayerScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A512301BDBF58B003307D4 /* WPPlayerScene.m */; };
+		34A512341BDC01CE003307D4 /* WPSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A512331BDC01CE003307D4 /* WPSprite.m */; };
 		AD0A53CC1BDB5699001943BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A53CB1BDB5699001943BC /* main.m */; };
 		AD0A53CF1BDB5699001943BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A53CE1BDB5699001943BC /* AppDelegate.m */; };
 		AD0A53D21BDB5699001943BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A53D11BDB5699001943BC /* ViewController.m */; };
@@ -27,8 +26,6 @@
 		AD0A54571BDBF2CB001943BC /* WPListener.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A54561BDBF2CB001943BC /* WPListener.m */; };
 		AD0A545B1BDBF932001943BC /* WPPeerHost.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A545A1BDBF932001943BC /* WPPeerHost.m */; };
 		AD0A545C1BDBF932001943BC /* WPPeerHost.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A545A1BDBF932001943BC /* WPPeerHost.m */; };
-		AD0A545E1BDBFFBE001943BC /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0A545D1BDBFFBE001943BC /* MultipeerConnectivity.framework */; };
-		AD0A54601BDBFFC4001943BC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0A545F1BDBFFC4001943BC /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,8 +35,6 @@
 		34A512301BDBF58B003307D4 /* WPPlayerScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPPlayerScene.m; sourceTree = "<group>"; };
 		34A512321BDC01CE003307D4 /* WPSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPSprite.h; sourceTree = "<group>"; };
 		34A512331BDC01CE003307D4 /* WPSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPSprite.m; sourceTree = "<group>"; };
-		34A512351BDC1C1D003307D4 /* WPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPManager.h; sourceTree = "<group>"; };
-		34A512361BDC1C1D003307D4 /* WPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPManager.m; sourceTree = "<group>"; };
 		AD0A53C71BDB5699001943BC /* Wopi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wopi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0A53CB1BDB5699001943BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD0A53CD1BDB5699001943BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,10 +69,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				34A5122C1BDBF1C6003307D4 /* SpriteKit.framework in Frameworks */,
-				AD0A543C1BDB6725001943BC /* GLKit.framework in Frameworks */,
-				AD0A543A1BDB671C001943BC /* CoreGraphics.framework in Frameworks */,
-				AD0A54381BDB6714001943BC /* AudioToolbox.framework in Frameworks */,
-				AD0A54361BDB670C001943BC /* Accelerate.framework in Frameworks */,
 				AD0A54341BDB6706001943BC /* AVFoundation.framework in Frameworks */,
 				AD0A53E21BDB5F6C001943BC /* MultipeerConnectivity.framework in Frameworks */,
 			);
@@ -99,10 +90,6 @@
 			children = (
 				34A5122D1BDBF1E0003307D4 /* SpriteKit.framework */,
 				34A5122B1BDBF1C6003307D4 /* SpriteKit.framework */,
-				AD0A543B1BDB6725001943BC /* GLKit.framework */,
-				AD0A54391BDB671C001943BC /* CoreGraphics.framework */,
-				AD0A54371BDB6714001943BC /* AudioToolbox.framework */,
-				AD0A54351BDB670C001943BC /* Accelerate.framework */,
 				AD0A54331BDB6706001943BC /* AVFoundation.framework */,
 				AD0A53E11BDB5F6C001943BC /* MultipeerConnectivity.framework */,
 				AD0A53C91BDB5699001943BC /* Wopi */,
@@ -156,6 +143,10 @@
 				AD0A54441BDB766B001943BC /* AppDelegate.m */,
 				AD0A54591BDBF932001943BC /* WPPeerHost.h */,
 				AD0A545A1BDBF932001943BC /* WPPeerHost.m */,
+				34A5122F1BDBF58B003307D4 /* WPPlayerScene.h */,
+				34A512301BDBF58B003307D4 /* WPPlayerScene.m */,
+				34A512321BDC01CE003307D4 /* WPSprite.h */,
+				34A512331BDC01CE003307D4 /* WPSprite.m */,
 				AD0A54491BDB766B001943BC /* Assets.xcassets */,
 				AD0A544B1BDB766B001943BC /* MainMenu.xib */,
 				AD0A544E1BDB766B001943BC /* Info.plist */,
@@ -287,7 +278,6 @@
 			files = (
 				AD0A545C1BDBF932001943BC /* WPPeerHost.m in Sources */,
 				AD0A54481BDB766B001943BC /* main.m in Sources */,
-				34A512371BDC1C1D003307D4 /* WPManager.m in Sources */,
 				AD0A54451BDB766B001943BC /* AppDelegate.m in Sources */,
 				34A512311BDBF58B003307D4 /* WPPlayerScene.m in Sources */,
 				34A512341BDC01CE003307D4 /* WPSprite.m in Sources */,

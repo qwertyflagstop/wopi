@@ -10,4 +10,6 @@
 
 @interface WPPlayerScene : SKScene
 
+-(void)updateAudioLvl:(CGFloat)lvl forChannel:(char)channel;
+
 @end

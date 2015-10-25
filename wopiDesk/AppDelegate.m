@@ -7,10 +7,14 @@
 //
 
 #import "AppDelegate.h"
+#import "WPPeerHost.h"
 #import <SpriteKit/SpriteKit.h>
 #import "WPPlayerScene.h"
 
-@interface AppDelegate () <WPPeerHostDelegate>
+@interface AppDelegate () <WPPeerHostDelegate> {
+    SKView *myView;
+    WPPlayerScene *playerScene;
+}
 
 @property (weak) IBOutlet NSWindow *window;
 @property (nonatomic, strong) WPPeerHost *host;
@@ -46,7 +50,7 @@
 
 -(void)gotAudioLvl:(CGFloat)lvl forChannel:(char)chanel
 {
-    
+    [playerScene updateAudioLvl:lvl forChannel:chanel];
 }
 
 @end
